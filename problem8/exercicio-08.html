@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Área de um terreno</title>
+    <style>
+        body {
+            font-family: Arial;
+            max-width: 350px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        #largura { padding: 8px;
+            margin: 3px;
+            font-size: 16px;
+        }
+        #comprimento { padding: 8px;
+            margin: 3px;
+            font-size: 16px;
+        }
+        #valorM2 { padding: 8px;
+            margin: 3px;
+            font-size: 16px;
+        }
+        #botaoCalcular { padding: 8px;
+            margin: 3px;
+            font-size: 16px;
+        }
+        #resultadoFinal {
+            margin-top: 15px;
+            padding: 12px;
+            background: #f0f0f0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Área do Terreno</h2>
+
+    Largura: <input id="largura"><br>
+
+    Comprimento: <input id="comprimento"><br>
+
+    Valor m²: <input id="valorM2" placeholder="R$"><br>
+
+    <button id="botaoCalcular" onclick="calcularResultado()">Calcular</button>
+
+    <div id="resultadoFinal"></div>
+</body>
+</html>

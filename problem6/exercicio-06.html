@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tempo de produção</title>
+    <style>
+    body {
+        max-width: 400px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    #pecas {
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+    }
+    #resultadoBotao {
+        padding: 10px;
+        margin: 5px;
+        font-size: 16px;
+    }
+    #resultadoGeral {
+        margin-top: 20px;
+        padding: 15px;
+        background: #f0f0f0;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <h2>Calculadora de Produção</h2>
+
+    <input id="quantidadePecasInput" placeholder="Quantidade de peças">
+  
+    <button id="resultadoBotao" onclick="calcular()">Calcular</button>
+  
+    <div id="resultadoGeral"></div>
+
+    <script src="logica6.js"></script>
+</body>
+</html>

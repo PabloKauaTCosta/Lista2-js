@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Consumo médio de combustível</title>
+    <style>
+    body {
+        font-family: Arial;
+        max-width: 350px;
+        margin: 50px auto;
+        padding: 20px;
+    }
+    #km {
+        padding: 8px;
+        margin: 3px;
+        font-size: 16px;
+    }
+    
+    #litros {
+        padding: 8px;
+        margin: 3px;
+        font-size: 16px;
+    }
+    #botaoCalcular {
+        padding: 8px;
+        margin: 3px;
+        font-size: 16px;
+    }
+    label {
+        display: inline-block;
+        width: 90px;
+    }
+    #resultadoFinal {
+        margin-top: 15px;
+        padding: 12px; background: #f0f0f0;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <h2>Consumo médio de combustível</h2>
+
+    Km: <input id="km"><br>
+
+    Litros: <input id="litros"><br>
+
+    <button id="botaoCalcular" onclick="calcularResultado()">Calcular</button>
+    
+    <div id="resultadoFinal"></div>
+</body>
+</html>
